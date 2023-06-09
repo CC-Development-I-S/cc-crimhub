@@ -3,6 +3,8 @@ Config = {}
 Config.Menu = "qb-menu" -- If you've changed the name of your qb-menu, you can change it here
 Config.Target = "qb-target" -- If you've changed the name of your qb-target, you can change it here
 
+Config.Inventory = "qb" -- QB / LJ / OX / CUSTOM (Add code in server/functions.lua)
+
 Config.Peds = {
     {
         model = "g_m_m_chicold_01",
