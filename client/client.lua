@@ -30,10 +30,6 @@ CreateThread(function()
     end
 end)
 
-RegisterCommand("c:menu", function()
-    TriggerEvent('cc-crimhub:cl:openmenu')
-end)
-
 RegisterNetEvent('cc-crimhub:cl:openmenu', function()
     local crimhubMenu = {}
     crimhubMenu[#crimhubMenu + 1] = {
